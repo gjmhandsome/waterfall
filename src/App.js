@@ -35,6 +35,7 @@ function renderCell(item, index) {
 function App() {
   const [columnWidth, setColumnWidth] = useState(200);
   const changeColmn = (type) => {
+    console.log('test')
     setColumnWidth(type)
   }
   return (
